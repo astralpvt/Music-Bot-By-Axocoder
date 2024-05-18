@@ -17,8 +17,8 @@ export default class OrasConfig extends Object {
     constructor() {
         super();
         this.token =
-            "";
-        this.botid = ""
+            "MTI0MTIxNzAxOTA4OTc4MDc2Nw.GBhBt0.S-HH6hxg6wQYHmNrlip3B11zk81GOHmgqAtmBU";
+        this.botid = "1241217019089780767"
         this.prefix = "+";
         this.nodes = [
             {
@@ -41,13 +41,13 @@ export default class OrasConfig extends Object {
             guildDelete: "",//put webhook
             Cmds: "",//put webhook
         };
-        this.server = "https://discord.gg/codersplanet";
-        this.botinvite = ``;//put you bot invite link
+        this.server = "https://discord.gg/calestials";
+        this.botinvite = `https://discord.com/oauth2/authorize?client_id=1241217019089780767&permissions=3145728&scope=bot`;//put you bot invite link
         this.spotiId = "6c31645ffb004ab8b44d06f7b96d1b66";
         this.spotiSecret = "3618fdc0b4824cfd91a8d425dac32987";
-        this.owners = [""];//put you discord id
+        this.owners = ["1217030191247790092"];//put you discord id
         this.color = "#2b2d31";
-        this.supportId = ""; //Server Id
+        this.supportId = "1217031241409495110"; //Server Id
         this.spotiNodes = [
             {
                 id: `Kronix`,
@@ -64,7 +64,7 @@ export default class OrasConfig extends Object {
               secure: false,
           }, // Dont Change The Name Of Nodes
         ];
-        this.voteUrl = "https://top.gg/bot/1027828697828433980/vote";
+        this.voteUrl = "https://top.gg/bot/";
         this.setupBgLink =
             "https://media.discordapp.net/attachments/1190943041922535517/1190943144158691369/live_now.png?ex=65a3a33c&is=65912e3c&hm=3f442c1bd2f8b61e3be1f1c625d891df2b90334098765ca174750746912df20d&=&format=webp&quality=lossless&width=1000&height=562";
     }
